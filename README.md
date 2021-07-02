@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @waitingonalice
-- 👀 I’m interested in tech and code
+- 👋 Hi, I’m Wilson Sie
+- 👀 I’m interested in anything tech!
 - 🌱 I’m currently learning AI and neural networking
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me @ fcsie55@gmail.com
