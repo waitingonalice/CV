@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width,initial-scale=1,shrink-to-fit=no"
+		/>
+		<title>Resume</title>
+		<style>
+		
+			main {
+				background: #fff;
+				box-sizing: border-box;
+				box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+				margin: 2rem auto;
+				padding: 2.75rem;
+				position: relative;
+			}
+			
+			
+			 h2 {
+				color: #47a;
+				font-size: 1rem;
+				font-weight: bold;
+				margin: 0;
+				margin-top: 1.5rem;
+				text-transform: uppercase;
+			}
+			
+			 h3 {
+				color: #111;
+				font-size: 1.25rem;
+				margin-top: 0rem;
+				margin: 0;
+				font-weight: normal;
+			}
+			 h3 span.dept::before {
+				content: "";
+				border-left: 1px solid #ccc;
+				padding-left: 0.4rem;
+			}
+			
+			 h3 span.dept {
+				color: #aaa;
+			}
+			 
+			 h4 {
+				margin: 0;
+				font-weight: normal;
+			}
+			
+			h4 span.duration {
+				color: #888;
+				display: inline-block;
+				float: right;
+			}
+					
+		
+		</style>
+		
+	</head>
+ 
+	<body>
+		<main>
+			<header>
+				<h1 itemprop = "name"> Wilson Sie </h1> 
+				<p title = "About me" itemprop="description"> 
+				<span itemprop = "jobTitle"> Aspiring software engineer</span>
+				with experience in building 
+				<span itemprop = "knowledge">high-quality and scalable applications</span> 
+				seeking
+				<span itemprop = "lookingFor"> front-end and full stack opportunities </span>
+				</p>
+				
+				<address id ="contactInfo">
+					<div itemprop = "email">
+						<a href = "mailto:wilsonsie97@gmail.com">wilsonsie97@gmail.com</a>
+					</div>
+					<a href = "tel:+6597275272"> 
+						<span itemprop="telephone">(65) 97275272</span>
+					</a>	
+				</address>
+			</header>
+				
+			<section id = "experience">
+				<h2> Experience </h2>
+					<h3> 
+						<span itemprop = "name"> GMM Technoworld Pte Ltd</span>
+						<span class = "dept" itemprop = "department"> Logistics </span>
+					</h3>
+					
+					<h4 itemprop = "role"> 
+						<span itemprop = "roleName"> Logistics Administrator </span>
+						<span class = "duration">
+							<time itemprop = "startDate"> Sept 2016</time>
+							-
+							<time itemprop = "endDate"> Feb 2017</time> 
+						</span>
+					</h4>
+		
+					<h4>
+						<ul itemprop = "description">
+							<li> Managed company inventory.</li>
+							<li> Planned delivery routes to ship to retailers across Singapore. </li>
+							<li> Assisting in ad-hoc duties</li>
+							<li> Developed an inventory management system using Kanban to optimise stock/restock count.</li>
+						</ul>
+					</h4>
+			</section>
+					
+				
+		</main>
+	</body>
+ </html>
+ 
+  
