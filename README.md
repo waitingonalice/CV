@@ -2,7 +2,7 @@
 - 👀 I’m interested in anything tech!
 - 🌱 I’m currently learning AI and neural networking
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me @ fcsie55@gmail.com
+- 📫 How to reach me @ wilsonsie97@gmail.com
 
 <!---
 waitingonalice/waitingonalice is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
