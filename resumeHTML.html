@@ -75,11 +75,15 @@
 			}
 			
 			#hobbies{
-			position: relative;
+				position: relative;
 			}
 			
 			#experience{
-			position: relative;
+				position: relative;
+			}
+			
+			#educationAndCert{
+				position: relative;
 			}
 			
 			.no-pointer, 
@@ -203,6 +207,7 @@
 				main > div:first-child { 
 				  flex: 1;
 				}
+				
 				main > div:last-child {
 				  width: 21%;
 				  margin-left: 4%;
@@ -352,6 +357,34 @@
 						</ul>
 						
 				</section>
+				
+				<section>
+					<h2> Education and Certifications</h2>
+					<ul id ="educationAndCert" 
+						itemprop="alumniOf"
+						itemscope
+						itemtype="http://schema.org/EducationalOrganization">
+						<li> 
+							<span itemprop="name">Republic Polytechnic</span>
+							<ul>
+								<li itemprop = "award">Diploma in Industrial and Operations Management </li>
+							</ul>
+						</li>								
+						<li>
+							<span itemprop="name">University of London</span>
+							<ul>
+								<li itemprop = "award"> B.S. Computing and Information Systems </li>
+							</ul>
+						</li>
+							
+						<li>
+							<span itemprop="name">Cisco</span>
+							<ul>
+								<li itemprop = "award">Cisco Certified Network Associate (CCNA)  </li>
+							</ul>
+						</li>	
+					</ul>	
+				</section>
 						
 				<section id = "hobbies"
 				itemprop="memberOf"
@@ -362,20 +395,21 @@
 						<ul itemprop ="description">
 							<li> Computer building, hardware optimising</li>
 							<li> Collecting and building Custom Mechanical Keyboards</li>
+							<li> Running a small time side business servicing hardware components</li>
 							<li> Carpentry</li>
 						</ul>
 					</h4>
 				</section>
+				
 			</div>
 			
 			<div>
-				<address id ="contact" class = "contact-mini-2">
+				<address id ="contact" class = "contact-2">
 					<div id = "location"
 						itemprop="address"
 						itemscope
 						itemtype="http://schema.org/PostalAddress"
 					>
-						
 						<span itemprop = "streetAddress"> 549 Serangoon North Ave 3</span>
 						<span itemprop = "addressCountry"> Singapore </span>
 						<span itemprop = "postalCode"> 550549 </span>
@@ -383,8 +417,8 @@
 					</div>
 					
 					<div>
-					<a href="tel:+6597275272" id="phone">(65) 97275272</a>
-					<a href="mailto:wilsonsie97@gmail.com" id="email">wilsonsie97@gmail.com</a>
+						<a href="tel:+6597275272" id="phone">(65) 97275272</a>
+						<a href="mailto:wilsonsie97@gmail.com" id="email">wilsonsie97@gmail.com</a>
 					</div>
 				</address>
 				
@@ -401,24 +435,23 @@
 					</ul>
 				</section>
 				
-				<section>
-					<h2> Education and Certifications</h2>
-					<ul class ="no-pointer educert">
-						<li itemprop="alumniOf"
-							itemscope
-							itemtype="http://schema.org/EducationalOrganization">
-							<li>
-								<span itemprop="name">Republic Polytechnic</span>
-									<ul>
-										<li itemprop = "award">Diploma in Industrial and Operations Management </li>
-									</ul>
-								<span itemprop="name">University of London</span>
-								<ul>
-									<li itemprop = "award"> B.S. Computing and Information Systems </li>
-								</ul>
-							</li>
-						</li>
-					</ul>	
+				<section id ="skills" class = "no-pointer"
+				itemprop ="memberOf"
+				itemscope 
+				itemtype = "https://schema.org/JobPosting">
+					<h2> Skills </h2>
+						<h4 itemprop ="skills">
+							<ul itemprop ="name">
+								<li> Adobe Illustrator</li>
+								<li> Adobe Premier Pro</li>
+								<li> Photography</li>
+								<li> Microsoft Excel</li>
+								<li> Microsoft Word</li>
+								<li> Microsoft Access</li>
+								<li> MariaDB </li>
+								<li> Wireshark</li>
+							</ul>
+						</h4>	
 				</section>
 				
 				<section>
