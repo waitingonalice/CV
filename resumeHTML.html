@@ -74,7 +74,7 @@
 				float: right;
 			}
 			
-			#hobbies{
+			#projects{
 				position: relative;
 			}
 			
@@ -185,7 +185,7 @@
 			
 			
 			
-			@media all and (min-width: 630px) {
+			@media all and (min-width: 600px) {
 				main {
 				  max-width: 600px;
 				}
@@ -194,7 +194,7 @@
 				}
 			}
 			
-			@media all and (min-width: 1000px) { 
+			@media all and (min-width: 900px) { 
 				html,
 				body {
 					font-size: 16px;
@@ -314,7 +314,7 @@
 					<p title = "About me" itemprop="description"> 
 					<span itemprop = "jobTitle"> Aspiring software engineer</span>
 					with experience in building 
-					<span itemprop = "knowsAbout">high-quality and scalable applications</span> 
+					<span itemprop = "knowsAbout">web applications and relational databases</span> 
 					seeking
 					<span itemprop = "seeks"> front-end and full stack opportunities </span>
 					</p>
@@ -334,15 +334,34 @@
 				itemscope 
 				itemtype = "http://schema.org/Organization">
 					<h2> Experience </h2>
+
+						<h3> 
+							<span itemprop="name"> National Kidney Foundation</span>
+							<span class = "dept" itemprop="department">Web Developer </span>
+						</h3>
+						<h4> 
+							<span itemprop="roleName">Freelancer</span>
+							<span class = "duration"> 
+								<time itemprop="startDate"> Aug 2021</time>
+								-
+								<time itemprop="endDate"> Present</time>
+							</span>
+						</h4>
+						<ul>
+							<li> Designed EDMs for NKF to put out e-mail newsletter publications.</li>
+							<li> Worked on the formatting and design of newsletters with front-end dev tools </li>
+							
+						</ul>
+
 						<h3> 
 							<span itemprop = "name"> GMM Technoworld Pte Ltd</span>
-							<span class = "dept" itemprop = "department"> Logistics </span>
+							<span class = "dept" itemprop = "department"> Logistics Administrator </span>
 						</h3>
 						
 						<h4 itemprop = "member"
 						itemscope
 						itemtype = "http://schema.org/OrganizationRole"> 
-							<span itemprop = "roleName"> Logistics Administrator </span>
+							<span itemprop = "roleName"> Logistics </span>
 							<span class = "duration">
 								<time itemprop = "startDate"> Sept 2016</time>
 								-
@@ -352,7 +371,7 @@
 						<ul itemprop = "description">
 							<li> Managed company inventory.</li>
 							<li> Planned delivery routes to ship to retailers across Singapore. </li>
-							<li> Assisting in ad-hoc duties</li>
+							<li> Assisted in ad-hoc duties</li>
 							<li> Developed an inventory management system using Kanban to optimise stock/restock count.</li>
 						</ul>
 						
@@ -364,19 +383,20 @@
 						itemprop="alumniOf"
 						itemscope
 						itemtype="http://schema.org/EducationalOrganization">
+						<li>
+							<span itemprop="name">University of London</span>
+							<ul>
+								<li itemprop="award"> B.S. (Hons) Computing and Information Systems </li>
+							</ul>
+						</li>
+						
 						<li> 
 							<span itemprop="name">Republic Polytechnic</span>
 							<ul>
 								<li itemprop = "award">Diploma in Industrial and Operations Management </li>
 							</ul>
 						</li>								
-						<li>
-							<span itemprop="name">University of London</span>
-							<ul>
-								<li itemprop = "award"> B.S. Computing and Information Systems </li>
-							</ul>
-						</li>
-							
+
 						<li>
 							<span itemprop="name">Cisco</span>
 							<ul>
@@ -386,17 +406,27 @@
 					</ul>	
 				</section>
 						
-				<section id = "hobbies"
+				<section id = "projects"
 				itemprop="memberOf"
 				itemscope
 				itemtype="http://schema.org/Organization">
-					<h2> Hobbies</h2>
+					<h2> Projects</h2>
 					<h4>
 						<ul itemprop ="description">
-							<li> Computer building, hardware optimising</li>
-							<li> Collecting and building Custom Mechanical Keyboards</li>
-							<li> Running a small time side business servicing hardware components</li>
-							<li> Carpentry</li>
+							<li>Visual Algo</li>
+								<ul>
+ 									<li>A progressive web application interactive learning tool that visualizes algorithms used in software engineering.</li>
+									<small class ="techstack">Reactjs</small><small class ="techstack">Javascript</small><small class ="techstack">HTML</small><small class ="techstack">CSS</small>
+								</ul>
+							<li>Image optimizer with Kohonen Neural Networks</li>
+								<ul>
+									<li>A machine learning neural network programmed to enhance blurry images by using self-organizing maps.</li>
+								</ul>
+							<li>Personal Website</li>
+								<ul>
+									<li>Personal website containing my portfolio of all my experiences and past works.</li>
+								</ul>
+							
 						</ul>
 					</h4>
 				</section>
@@ -429,7 +459,6 @@
 						<li itemprop = "knowsAbout"> HTML</li>
 						<li itemprop = "knowsAbout"> CSS</li>
 						<li itemprop = "knowsAbout"> Java </li>
-						<li itemprop = "knowsAbout"> Python</li>
 						<li itemprop = "knowsAbout"> SQL</li>
 						
 					</ul>
@@ -442,14 +471,12 @@
 					<h2> Skills </h2>
 						<h4 itemprop ="skills">
 							<ul itemprop ="name">
-								<li> Adobe Illustrator</li>
-								<li> Adobe Premier Pro</li>
-								<li> Photography</li>
-								<li> Microsoft Excel</li>
-								<li> Microsoft Word</li>
-								<li> Microsoft Access</li>
+								<li> Reactjs</li>
+								<li> mySQL</li>
 								<li> MariaDB </li>
-								<li> Wireshark</li>
+								<li> Adobe Illustrator</li>
+								<li> Adobe Photoshop </li> 
+								<li> Adobe Premier Pro</li>
 							</ul>
 						</h4>	
 				</section>
@@ -458,12 +485,12 @@
 				<h2> Links </h2>
 					<ul class = "no-pointer educert">
 						<li> <a href = "https://github.com/waitingonalice/waitingonalice">Github <i class="fa fa-github" style="font-size:20px"></i></a> </li>
-						<li> <a href = "https://www.instagram.com/waitingonalice/?hl=en"> Instagram <i class="fa fa-instagram" style="font-size:20px"></i></a></li>
+						<li> <a href = "https://www.linkedin.com/in/wilson-sie-6a3485155/">LinkedIn <i class="fa fa-linkedin-square" style="font-size: 20px"></i></a> </li>
 					</ul>
 				</section>
 			</div>
 			
 		</main>
 	</body>
- </html>
-  
+</html>
+
