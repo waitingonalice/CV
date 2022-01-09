@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///C:/Users/FC/Documents/GitHub/waitingonalice/resumeHTML.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./Resume_files/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Resume</title>
+		<style>
+			@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+			
+			 html,
+			 body {
+				background: #ccc;
+				font-family: Quicksand, Arial, Verdana, sans-serif;
+				font-size: 14px;
+				color: #444;
+			 }
+			  
+			main {
+				background: #fff;
+				margin: 2rem auto;
+				padding: 2.75rem;
+				position: relative;
+			}
+			h1 {
+				margin: 0;
+				font-size: 2.5rem;
+				line-height: 2rem;
+				font-weight: normal;
+				color: #000;
+			}
+			
+			 h2 {
+				color: #47a;
+				font-size: 1rem;
+				font-weight: bold;
+				margin: 0;
+				margin-top: 1.5rem;
+				text-transform: uppercase;
+			}
+			
+			 h3 {
+				color: #111;
+				font-size: 1.25rem;
+				margin-top: 0rem;
+				margin: 0;
+				font-weight: normal;
+			}
+			 h3 span.dept::before {
+				content: "";
+				border-left: 1px solid #ccc;
+				padding-left: 0.4rem;
+			}
+			
+			 h3 span.dept {
+				color: #aaa;
+			}
+			 
+			 h4 {
+				margin: 0;
+				font-weight: normal;
+			}
+			
+			h3 span.duration {
+				color: #888;
+				display: inline-block;
+				float: right;
+			}
+
+			time {
+				display: inline-block;
+				min-width: 2rem;
+			}
+			
+			address {
+				font-style: normal;
+			}
+			
+			p {
+				font-size: 1rem;
+				margin-top: 0.5rem;
+				margin-bottom: 0;
+			}
+			a{
+				text-decoration: none;
+			}
+			
+			#projects{
+				position: relative;
+			}
+
+			#skills{
+				position: relative;
+			}
+			
+			#experience{
+				position: relative;
+			}
+			
+			#educationAndCert{
+				position: relative;
+			}
+			
+			.techstack{
+				border: 1px solid #888;
+				border-radius: 3px;
+				padding: 0px 4px;
+			}
+			.aboutMe{
+				border: none;
+				padding: 0px 4px;
+			}
+			.title-left{
+				display: inline;
+			}
+			.no-pointer, 
+			.no-pointer ul {
+				list-style: none;
+				margin-left: 0;
+				padding-left: 0;
+				color: #000;
+				font-weight: bold;
+			}
+			
+			.no-pointer ul {
+				font-weight: normal;
+				
+			}
+			.no-pointer span {
+				color: #666;
+			}
+			.educert {
+				display: flex;	
+			}
+			
+			.educert li {
+				flex: 1;
+				align-items: start;
+				justify-content: start;
+			}
+			
+			#phone {
+				font-size: 1.25rem;
+				font-weight: bold;
+				text-decoration: none !important;
+			}
+					
+			#location {
+				font-size: 0.85rem;
+			}
+			
+			#languages {
+				column-count: 4;
+			}
+			
+			i,
+			a,
+			a:visited,
+			a:link,
+			a:active,
+			a:focus,
+			#languages{
+				color: #395;
+			}
+
+			#map-icon {
+				color: #395;
+			}
+			
+			#contact-mini > div {
+				font-size: 1rem;
+				flex: 1;
+			}
+			
+			#contact-mini{
+				display: flex;
+				margin-top: 1rem;
+			}
+			
+			#contact-mini > div:nth-child(2) {
+				text-align: center;
+				flex: 2;
+			}
+			
+			#contact-mini > div:last-child {
+				text-align: left;
+			}	
+			
+			@media all and (min-width: 600px) {
+				main {
+					max-width: 630px;
+				}
+				#contact-mini > div {
+					font-size: 1rem;
+				}
+			}
+			
+			@media all and (min-width: 900px) { 
+				html,
+				body {
+					font-size: 16px;
+				}
+				main {
+					max-width: 920px;
+					display: flex;
+				}
+				
+				main > div:first-child { 
+					flex: 1;
+				} 
+				
+				main > div:last-child {
+					width: 21%;
+					margin-left: 4%;
+				}
+				#languages {
+				  column-count: 1;
+				}
+				.educert {
+				  display: block;
+				}
+				.educert > li:nth-child(n + 2) {
+				  margin-top: 0.75rem;
+				}
+				#email,
+				#website {
+				  font-size: 0.9em;
+				}
+				#contact-mini > div {
+					font-size: 1rem;
+				}
+			}
+			
+			@media all and (min-width: 1200px) { 
+				html,
+				body {
+				  font-size: 18px;
+				}
+				main {
+				  max-width: 1120px;
+				}
+				#email,
+				#website {
+				  font-size: 1em !important;
+				}
+			}
+			
+			@media print {
+				@page {
+				  size: 900px;
+				}
+				html,
+				body {
+				  background: #fff;
+				  font-size: 16px;
+				  width: 900px;
+				}
+				a,
+				a:visited,
+				a:link,
+				a:active,
+				a:focus,
+				#languages label {
+				  text-decoration: none;
+				  color: #000;
+				}
+				main {
+				  margin: 0;
+				  max-width: 920px;
+				  display: flex;
+				  box-shadow: none;
+				}
+				main > div:first-child {
+				  flex: 1;
+				}
+				main > div:last-child {
+				  width: 21%;
+				  margin-left: 4%;
+				}
+				#filters {
+				  display: none;
+				}
+				#languages {
+				  column-count: 1;
+				}
+				.educert {
+				  display: block;
+				}
+				.educert > li:nth-child(n + 2) {
+				  margin-top: 0.75rem;
+				}
+				.position {
+				  opacity: 1 !important;
+				}
+				
+			}
+		
+		
+		</style>
+		<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<main id= "resume" itemscope itemtype="http://schema.org/Person">
+			<div>
+				<header>
+					<h1 itemprop="name"> Wilson Sie </h1> 
+					<div>
+						<address id="contact-mini">
+							<div>
+								<a class = "aboutMe" href="mailto:wilsonsie97@gmail.com"><i class="fa fa-at"></i> wilsonsie97@gmail.com</a>
+								<a class = "aboutMe" href="tel:+6597275272"> <i class="fa fa-phone"></i>
+									<span itemprop="telephone">(65)9727 5272</span>
+								</a>
+								<span id="map-icon" class="aboutMe"><i class="fa fa-map"></i> Singapore</span>
+							</div>
+						</address>
+						<a class = "aboutMe" href="https://github.com/waitingonalice/waitingonalice"><i class="fa fa-github"></i> Github</a>
+						<a class ="aboutMe" href="https://www.linkedin.com/in/wilson-sie-6a3485155/"><i class="fa fa-linkedin"></i> LinkedIn</a>
+						
+					</div>
+					<!-- <p title="About me" itemprop="description"> 
+						<span itemprop="jobTitle"> Aspiring software engineer</span>
+						with experience in building 
+						<span itemprop="knowsAbout">web applications and relational databases</span> 
+						seeking
+						<span itemprop="seeks"> front-end and full stack opportunities </span>
+					</p>	 -->
+				</header>
+				
+				<section id = "skills">
+					<h2> Skills </h2>
+					<div>
+						<div>
+							<h3 class = "title-left">Languages</h3> 
+							-
+							<span>Javascript</span>
+							<span>Java</span>
+							<span>HTML</span>
+							<span>CSS</span>
+							<span>SQL</span>
+						</div>
+						<div>
+							<h3 class = "title-left">Frameworks & Technologies</h3>
+							- 
+							<span>ReactJs</span>
+							<span>Git</span>
+							<span>mySQL</span>
+						</div>
+						<div>
+							<h3 class="title-left">Others</h3>
+							-
+							<span>Adobe Premier Pro</span>
+							<span>Adobe Photoshop</span>
+							<span>Adobe Illustrator</span>
+						</div>
+					</div>			
+				</section>
+				
+
+				<section id="experience" itemprop="memberOf" itemscope="" itemtype="http://schema.org/Organization">
+					<h2> Experience </h2>
+
+						<h3> 
+							<span itemprop="name"> National Kidney Foundation</span>
+							<span class="dept" itemprop="department">Web Developer </span>
+							<span class="duration">
+								<time itemprop="startDate"> Aug 2021</time>
+								-
+								<time itemprop="endDate"> Present</time>
+							</span>
+						</h3>
+						<h4> 
+							<span itemprop="roleName">Freelancer</span>
+						</h4>
+						<ul>
+							<li> Designed EDMs for NKF to put out e-mail newsletter publications.</li>
+							<li> Worked on the formatting and design of newsletters with front-end dev tools </li>
+							
+						</ul>
+
+						<h3> 
+							<span itemprop="name"> GMM Technoworld Pte Ltd</span>
+							<span class="dept" itemprop="department"> Logistics Administrator </span>
+							<span class="duration">
+								<time itemprop="startDate"> Sept 2016</time>
+								-
+								<time itemprop="endDate"> Feb 2017</time>
+							</span>
+						</h3>
+						
+						<h4 itemprop="member" itemscope="" itemtype="http://schema.org/OrganizationRole"> 
+							<span itemprop="roleName"> Logistics </span>	
+						</h4>
+						<ul itemprop="description">
+							<li> Managed company inventory.</li>
+							<li> Planned delivery routes to ship to retailers across Singapore. </li>
+							<li> Developed an inventory management system using Kanban to optimise stock/restock count.</li>
+							<li> Assisted in ad-hoc duties</li>
+						</ul>
+						
+				</section>
+				
+				<section>
+					<h2> Education and Certifications</h2>
+					<ul id="educationAndCert" itemprop="alumniOf" itemscope="" itemtype="http://schema.org/EducationalOrganization">
+						<li>
+							<span itemprop="name">University of London</span>
+							<ul>
+								<li itemprop="award"> B.S. (Hons) Computing and Information Systems </li>
+							</ul>
+						</li>
+						
+						<li> 
+							<span itemprop="name">Republic Polytechnic</span>
+							<ul>
+								<li itemprop="award">Diploma in Industrial and Operations Management </li>
+							</ul>
+						</li>								
+
+						<li>
+							<span itemprop="name">Cisco</span>
+							<ul>
+								<li itemprop="award">Cisco Certified Network Associate (CCNA)  </li>
+							</ul>
+						</li>	
+					</ul>	
+				</section>
+						
+				<section id="projects" itemprop="memberOf" itemscope="" itemtype="http://schema.org/Organization">
+					<h2> Projects</h2>
+					<h4>
+						<ul itemprop="description">
+							<li>Visual Algo</li>
+								<ul style="padding-bottom: 8px;">
+									<a href="https://github.com/waitingonalice/VisualAlgo"><i class="fa fa-github"></i>
+										github.com/waitingonalice/VisualAlgo</a>
+									<li>A progressive web application interactive learning tool that visualizes algorithms used in software engineering.</li>
+									<small class="techstack">Reactjs</small> <small class="techstack">Javascript</small>
+								</ul>
+
+							<li>Image optimizer with Kohonen Neural Networks</li>
+								<ul style="padding-bottom: 8px;">
+									<li>A machine learning neural network programmed to enhance blurry images by using self-organizing maps.</li>
+									<small class="techstack">Java</small>
+								</ul>
+							<li>Personal Website</li>
+								<ul style="padding-bottom: 8px;">
+									<li>Personal website containing my portfolio of all my experiences and past works.</li>
+									<small class="techstack">Reactjs</small> <small class="techstack">Javascript</small> 
+								</ul>
+							
+						</ul>
+					</h4>
+				</section>
+				
+			</div>
+			
+		</main>
+</body></html>
