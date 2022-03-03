@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Wilson Sie
+- 👋 Hi, I’m Wilson
 - 👀 I’m interested in anything tech!
 - 🌱 I’m currently pursuing a degree in B.S. Computing and Information Systems
 - 💞️ I’m looking to collaborate on Full stack projects
