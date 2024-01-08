@@ -354,14 +354,17 @@
             <div>
               <h4 class="title-left">Frameworks & Technologies</h4>
               -
-              <span>ReactJS,</span>
+              <span>React,</span>
               <span>NodeJS,</span>
               <span>GraphQL,</span>
               <span>REST APIs,</span>
               <span>Prisma,</span>
               <span>PostgresQL,</span>
+              <span>Rollup,</span>
+              <span>Webpack,</span>
               <span>Git,</span>
-              <span>Docker</span>
+              <span>Docker,</span>
+              <span>Github Actions,</span>
             </div>
           </div>
         </section>
@@ -393,11 +396,6 @@
               efficiency.
             </li>
             <li>
-              Built a reusable upload interface which supports multiple uploads
-              at once with custom file validations that is connected to AWS S3
-              on the frontend for asset management.
-            </li>
-            <li>
               Implemented client-side caching using Apollo's cache to reduce the
               number of API calls made to the backend, improving product search
               times and user experience.
@@ -408,36 +406,31 @@
               Internal Admin and Product Catalog portals.
             </li>
             <li>
-              Wrote automation scripts to improve developer experience and
-              increase work efficiency. This reduced the number of bugs written
-              by automating manual processes and was also used as a measure to
+              Wrote automation pipelines to improve developer experience and
+              increase work efficiency. This reduced the number of bugs by
+              automating manual processes and was also used as a measure to
               scale to the increasing size of the codebase.
+            </li>
+            <li>
+              Wrote numerous AWS Lambda functions that was orchestrated by a
+              Step function to automate the process of generating product data
+              for customers/vendors. Also improved step function flow to
+              leverage on parallelism to reduce the time taken to generate
+              product data.
             </li>
           </ul>
 
-          <h4>
+          <!-- <h4>
             <span itemprop="roleName">Software Engineer Intern</span>
           </h4>
           <ul>
-            <li>
-              Researched, documented and performed a proof of concept to
-              integrate localisation software into Saas platform. Also played a
-              key role in integrating localisation software into the Product
-              Information System (PIM) platform in order to serve different
-              users across different countries.
-            </li>
-            <li>
-              Contributed to the overall improvement of UX for supplier portal
-              by refactoring how components are displayed and implementing
-              skeleton loaders into website flow.
-            </li>
             <li>
               Worked in a fast-paced startup that practiced agile software
               development that required active participation in the requirements
               gathering, design and development phases. Utilised tools such as
               Confluence and Jira.
             </li>
-          </ul>
+          </ul> -->
 
           <h3>
             <span itemprop="name"> National Kidney Foundation</span>
@@ -458,7 +451,7 @@
             </li>
             <li>
               Worked on email template formatting with frontend tools such as
-              HTML and CSS.
+              HTML and CSS and Javascript.
             </li>
           </ul>
         </section>
@@ -500,21 +493,20 @@
           <h2>Projects</h2>
           <h4>
             <ul itemprop="description">
-              <li>Expense Tracker</li>
+              <li>Code Editor</li>
               <ul style="padding-bottom: 8px">
                 <div>
-                  <a href="https://github.com/waitingonalice/Expense-tracker"
+                  <a
+                    href="https://github.com/waitingonalice/Evergreen/tree/master/code-editor"
+                    target="_blank"
                     ><i class="fa fa-github"></i> GitHub</a
                   >
-                  <a href="https://expense-tracker-theta-teal.vercel.app/">
-                    <i class="fa fa-link"></i> Live link
-                  </a>
                 </div>
                 <li>
-                  A fullstack application developed with NodeJS and React. This
-                  application provides an array of features which include
-                  authentication, user profiles, expense tracking, resource
-                  planning and budgeting. (Work In Progress)
+                  Built in a monorepo, this application serves as a browser code
+                  sandbox that is able to compile and execute user input code
+                  and judge the output performance. It is used as a tool for me
+                  to test algorithms while development.
                 </li>
                 <small class="techstack">Typescript</small>
                 <small class="techstack">TailwindCSS</small>
@@ -524,11 +516,39 @@
                 <small class="techstack">Docker</small>
                 <small class="techstack">Github Actions</small>
               </ul>
+              <li>Design System</li>
+              <ul style="padding-bottom: 8px">
+                <div>
+                  <a
+                    href="https://github.com/waitingonalice/Evergreen-packages/tree/main/design-system"
+                    target="_blank"
+                    ><i class="fa fa-github"></i> GitHub</a
+                  >
+                  <a
+                    href="https://www.npmjs.com/package/@waitingonalice/design-system?activeTab=readme"
+                    target="_blank"
+                  >
+                    <i class="fa fa-link"></i> Live link
+                  </a>
+                </div>
+                <li>
+                  A design system package that provides a set of UI components
+                  for me to reuse across different projects. It is built with
+                  React and tested with Storybook. Rollup is used to bundle the
+                  package and published to NPM via Github Actions.
+                </li>
+                <small class="techstack">Typescript</small>
+                <small class="techstack">TailwindCSS</small>
+                <small class="techstack">Storybook</small>
+                <small class="techstack">Rollup</small>
+                <small class="techstack">Github Actions</small>
+              </ul>
               <li>Blockchain Signature pad</li>
               <ul style="padding-bottom: 8px">
                 <div>
                   <a
                     href="https://github.com/waitingonalice/Blockchain-signature-pad"
+                    target="_blank"
                     ><i class="fa fa-github"></i> GitHub</a
                   >
                 </div>
@@ -546,10 +566,15 @@
               <li>Visual Algo</li>
               <ul style="padding-bottom: 8px">
                 <div>
-                  <a href="https://github.com/waitingonalice/VisualAlgo"
+                  <a
+                    href="https://github.com/waitingonalice/VisualAlgo"
+                    target="_blank"
                     ><i class="fa fa-github"></i> GitHub
                   </a>
-                  <a href="https://waitingonalice.github.io/Visual-Algo/">
+                  <a
+                    href="https://waitingonalice.github.io/Visual-Algo/"
+                    target="_blank"
+                  >
                     <i class="fa fa-link"></i> Live link
                   </a>
                 </div>
@@ -561,7 +586,7 @@
                 <small class="techstack">Javascript</small>
                 <small class="techstack">CSS3</small>
               </ul>
-              <li>Open weather App</li>
+              <!-- <li>Open weather App</li>
               <ul style="padding-bottom: 8px">
                 <div>
                   <a href="https://github.com/waitingonalice/Weather-app"
@@ -581,8 +606,8 @@
                 <small class="techstack">React</small>
                 <small class="techstack">TailwindCSS</small>
                 <small class="techstack">REST APIs</small>
-              </ul>
-              <li>Personal Website</li>
+              </ul> -->
+              <!-- <li>Personal Website</li>
               <ul style="padding-bottom: 8px">
                 <div>
                   <a href="https://github.com/waitingonalice/Portfolio-Website">
@@ -615,7 +640,7 @@
                 <small class="techstack">Typescript</small>
                 <small class="techstack">GraphQL</small>
                 <small class="techstack">TailwindCSS</small>
-              </ul>
+              </ul> -->
             </ul>
           </h4>
         </section>
